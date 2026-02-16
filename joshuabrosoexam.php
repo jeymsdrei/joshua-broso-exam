@@ -5,7 +5,7 @@ echo "Graduates from Ateneo de Naga:\n\n";
 //find everyone who graduated from ateneo de naga 
 
 foreach ($data as $person) {
-    if (strtolower(trim($person["school"])) == "ateneo de naga") {
+    if (strtolower(trim($person["hoapt"])) == "ateneo de naga") {
 
         $full_name = $person["first_name"] . " " .
                      $person["middle_name"] . " " .
