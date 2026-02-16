@@ -17,7 +17,7 @@ foreach ($data as $person) {
         echo "Age       : " . $person["age"] . "\n";
         echo "Company   : " . $person["company"] . "\n";
         echo "School    : " . $person["school"] . "\n";
-        echo "------------------------------------\n";
+        echo "------------------------------------\";
     }
 }
 ?>
